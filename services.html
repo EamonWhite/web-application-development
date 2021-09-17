@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DreamMaker Website Services</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+      .navbar {
+        margin-bottom: 0;
+        border-radius: 0;
+        background-color: #333;
+        color: #fff;
+        padding: 1% 0;
+        font-size: 1.2em;
+        border: 0;
+      }
+      .navbar-brand {
+        float: left;
+        min-height: 40px;
+        padding: 0 15px 5px;
+      }
+      .navbar-inverse .navbar-nav .active a,
+      .navbar-inverse .navbar-nav .active a:focus,
+      .navbar-inverse .navbar-nav .active a:hover {
+        color: FFF;
+        background-color: #1f71da;
+      }
+      .bg {
+        background: url('img/mountains.png') no-repeat;
+        width: 100%;
+        height: 100%;
+      }
+      .card {
+        padding: 10px 0 0;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"
+            ><img src="img/dreamMaker.jpg" height="65"
+          /></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Services</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="login.html">login</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid bg">
+      <div class="row">
+        <div class="col-md-4 col-sm-4 col-xs-12"></div>
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card left" style="width: 18rem">
+                <img
+                  src="img/desertIsland.png"
+                  height="100"
+                  width="200"
+                  class="card-img-top"
+                  alt="Island Paradise"
+                />
+                <div class="card-body">
+                  <h5 class="card-title" id="title">Desert Island Paradise</h5>
+                  <p class="card-text" id="ct">
+                    Relax, de-stress and completely escape from the life's
+                    worries in a luxurious villa on your own desert island
+                    paradise, a once-in-a-lifetime experience!
+                  </p>
+                  <a href="#" class="btn btn-primary" onclick="order()"
+                    >Select</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="img/cruiseShip.png"
+                  height="100"
+                  width="200"
+                  class="card-img-top"
+                  alt="Luxury Liner"
+                />
+                <div class="card-body">
+                  <h5 class="card-title" id="title1">Luxury Cruise</h5>
+                  <p class="card-text" id="ct1">
+                    Experience a top-class luxury cruise liner where
+                    award-winning food, attention to detail and premium service
+                    are second-to-none.
+                  </p>
+                  <a href="#" class="btn btn-primary" onclick="order1()"
+                    >Select</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="img/aventador-1.png"
+                  height="100"
+                  width="200"
+                  class="card-img-top"
+                  alt="Super Car"
+                />
+                <div class="card-body">
+                  <h5 class="card-title" id="title2">Super-Car</h5>
+                  <p class="card-text" id="ct2">
+                    Experience the ultimate thrill of driving some of the
+                    world's most spectacular and exhilirating supercars, a
+                    different one each day for a week, including Ferraris,
+                    Porches and Lamborghinis. A must for lovers of speed!
+                  </p>
+                  <a href="#" class="btn btn-primary" onclick="order2()"
+                    >Select</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="img/snow.png"
+                  height="100"
+                  width="200"
+                  class="card-img-top"
+                  alt="Snow-capped Mountains"
+                />
+                <div class="card-body">
+                  <h5 class="card-title" id="title3">Everest Base Camp</h5>
+                  <p class="card-text" id="ct3">
+                    The truly breathtaking mixed scenery of forest,
+                    flower-filled meadows, glaciers, rivers and spectacular
+                    mountainous panaromas makes the historic trek to Everest
+                    Base Camp an experience not to be missed.
+                  </p>
+                  <a href="#" class="btn btn-primary" onclick="order3()"
+                    >Select</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12"></div>
+      </div>
+    </div>
+  </body>
+
+  <script>
+    document.getElementById('title').style.color = 'blue';
+    document.getElementById('title1').style.color = 'blue';
+    document.getElementById('title2').style.color = 'blue';
+    document.getElementById('title3').style.color = 'blue';
+
+    document.getElementById('ct').style.color = 'white';
+    document.getElementById('ct1').style.color = 'white';
+    document.getElementById('ct2').style.color = 'white';
+    document.getElementById('ct3').style.color = 'white';
+
+    var dmServices = [
+      'Desert Island Paradise',
+      'Luxury Cruise',
+      'Super-Car',
+      'Everest Base Camp',
+    ];
+    var price = 10000;
+
+    function order() {
+      alert(dmServices[0] + ':' + ' ' + '$' + price);
+    }
+    function order1() {
+      alert(dmServices[1] + ':' + ' ' + '$' + price);
+    }
+    function order2() {
+      alert(dmServices[2] + ':' + ' ' + '$' + price);
+    }
+    function order3() {
+      alert(dmServices[3] + ':' + ' ' + '$' + price);
+    }
+  </script>
+</html>

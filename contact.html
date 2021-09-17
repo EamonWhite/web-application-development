@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DreamMaker Website Contact</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  .navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+	background-color: #333;
+	color: #FFF;
+	padding: 1% 0;
+	font-size: 1.2em;
+	border: 0;
+  }
+  .navbar-brand {
+	float: left;
+	min-height: 40px;
+	padding: 0 15px 5px;
+  }
+  .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
+	color: FFF;
+	background-color: #1f71da;
+  }
+  .bg {
+	background: url('img/tranquil.png') no-repeat;
+	width: 100%;
+	height: 100vh;
+  }
+	
+	</style>
+</head>
+  <body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><img src="img/dreamMaker.jpg" height="65"></a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar"> 
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="#">Contact</a></li>
+					<li><a href="home.html">Home</a></li>
+					<li><a href="login.html">login</a></li>
+					<li><a href="services.html">Services</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<div class="container-fluid bg">
+		<div class="row">
+			<div class="col-md-12 col-sm-12 col-xs-12"></div>
+			<div class="col-md-12 col-sm-12 col-xs-12">
+			<br>
+				<div class="jumbotron jumbotron-fluid text-center">
+				  <div class="container">
+					<h1 class="display-4"  id="blue">Contact Information</h1>
+					<p class="lead">
+						Tweet us, call us, email us<br><br>
+						Tweet us @dreammaker_ie<br><br>
+
+												 
+						The postal address and general switchboard number for the DreamMaker is:<br><br>
+
+						Technology House<br>
+						27 - 32 Main Street<br>
+						Dublin 1<br>
+						Ireland<br>
+
+						Telephone: +353 (0)1 705 0000<br><br>
+
+						Online edition inquiries: contact@dreammaker.ie
+					</p>
+				  </div>
+				</div>
+				
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-12"></div>
+		</div>
+	</div>
+	
+	<div id="blue2"><h1>Contact us<h1></div><br>
+	
+	<form>
+	  <div class="form-row">
+		<div class="form-group col-md-6">
+		  <label for="inputEmail4">Email</label>
+		  <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+		</div>
+		<div class="form-group col-md-6">
+		  <label for="inputPassword4">Password</label>
+		  <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+		</div>
+	  </div>
+	  <div class="form-group col-md-6">
+		<label for="inputAddress">Address</label>
+		<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+	  </div>
+	  <div class="form-group col-md-6">
+		<label for="inputAddress2">Address 2</label>
+		<input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+	  </div>
+	  <div class="form-row">
+		<div class="form-group col-md-6">
+		  <label for="inputCity">City</label>
+		  <input type="text" class="form-control" id="inputCity">
+		</div>
+		<div class="form-group col-md-4">
+		  <label for="inputState">County</label>
+		  <select id="inputState" class="form-control">
+			<option selected>Choose...</option>
+			<option>...</option>
+		  </select>
+		</div>
+		<div class="form-group col-md-2">
+		  <label for="inputZip">Eircode</label>
+		  <input type="text" class="form-control" id="inputZip">
+		</div>
+	  </div>
+	  
+	  <button type="submit" class="btn btn-primary">Submit</button>
+	</form>
+  
+  </body>
+  
+  <script>
+	document.getElementById("blue").style.color = "blue";
+	document.getElementById("blue2").style.color = "blue";
+  </script>
+</html>
