@@ -1,7 +1,7 @@
 # web-application-development
 Basic website designed using HTML and CSS
 
-A first attempt at building a basic website using HTML, CSS and JavaScript. The site has 4 different pages:
+A first attempt at building a basic website using HTML, CSS and JavaScript and employing the Bootstrap framework. The site has 4 different pages:
   * Home
   * Login
   * Services
